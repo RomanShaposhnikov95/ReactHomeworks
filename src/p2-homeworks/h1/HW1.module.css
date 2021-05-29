@@ -1,0 +1,9 @@
+.general {
+    background: url("https://preview.redd.it/qwd83nc4xxf41.jpg?width=640&crop=smart&auto=webp&s=e82767fdf47158e80604f407ce4938e44afc6c25") center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    width: 100%;
+}

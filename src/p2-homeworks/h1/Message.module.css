@@ -1,0 +1,84 @@
+.avatar {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.alternativeContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.color {
+    color: white;
+    font-weight: bold
+}
+
+.name {
+    color: orange;
+}
+
+.content {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #5DC85A;
+    position: relative;
+    box-shadow: 1px 2px 4px 1px #2B2B2B;
+}
+
+.alternativeContent {
+    margin-right: 10px;
+    box-shadow: -1px 2px 4px 1px #2B2B2B;
+}
+
+.ugol {
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    left: -15px;
+    bottom: 0; /* Положение треугольника */
+    border: 10px solid transparent;
+    border-right: 10px solid #5DC85A;
+    border-bottom: 5px solid #5DC85A;
+}
+
+.alternativeUgol {
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    right: -15px;
+    bottom: 0; /* Положение треугольника */
+    border: 10px solid transparent;
+    border-left: 10px solid #5DC85A;
+    border-bottom: 5px solid #5DC85A;
+}
+
+
+.blockTime {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.message {
+    padding: 10px 0;
+}
+
+.time {
+    font-size: 13px;
+}
+
